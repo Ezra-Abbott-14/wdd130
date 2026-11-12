@@ -1,0 +1,21 @@
+#header{
+    grid-template-columns: 10% 90% ;
+}
+header{
+    size: 32px;
+}
+
+#main {
+    grid-template-columns:200px 1fr 15px 1fr 200px ;
+    display: grid;
+}
+header{
+    background-color: white;
+}
+body{
+    background-color: lightblue;
+}
+
+img{
+    min-width: 200px;
+}

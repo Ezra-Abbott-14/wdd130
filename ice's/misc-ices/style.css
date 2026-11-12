@@ -1,0 +1,17 @@
+/*This is the syntax for a comment*/
+
+body {
+    background-color: rgb(0, 215, 143);
+}
+
+h2  {
+    background-color: blue;
+    color: blueviolet;
+}
+#id1{
+    color: white
+}
+
+.class_test{
+    color:chartreuse
+}

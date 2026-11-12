@@ -1,0 +1,136 @@
+:root{
+    /* Note: this is a monochrome color scheme */
+--mainColor: #196BC0;
+--secondaryColor: #2E5C8C;
+--terstiaryColor: #2F4459;
+--accentColor: #252C33;
+--darkColor: #2C3033;
+}
+
+body{
+    background-color: var(--terstiaryColor);
+    color: white;
+    margin: 0;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--secondaryColor);
+    height: 75px;
+
+}
+nav img{
+    width: 75px;
+}
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 100%;    
+    margin: 0 auto;
+    background-color: var(--mainColor);
+    margin: 0 10%;
+}
+header img{
+    margin: 5% auto;
+    width: 200px;
+    /* not working? */
+}
+#topMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    margin: 3% 10%
+}
+#topMain p{
+    font-size: 24px;
+}
+
+#homeSiteGrid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 25% 75%;
+    margin: 5% 10%;
+
+}
+#homeSiteGrid img{
+    grid-row: 1/3;
+    width: 200px;
+}
+
+#wwrSiteGrid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 25% 75%;
+    margin: 5% 10%;
+
+}
+#wwrSiteGrid img{
+    grid-row: 1/3;
+    width: 200px;
+}
+
+#iceSiteGrid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 25% 75%;
+    margin: 5% 10%;
+
+}
+#iceSiteGrid img{
+    grid-row: 1/3;
+    width: 200px;
+}
+
+#aboutSiteGrid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 25% 75%;
+    margin: 5% 10%;
+
+}
+#aboutSiteGrid img{
+    grid-row: 1/3;
+    width: 200px;
+}
+
+#contactMe{
+    display: grid;
+    grid-template-rows: 25% 20% 25% 20%;
+    grid-template-columns: 1fr 1fr;
+    height: 75%;
+    margin: 0 15%;
+}
+#contactMe h1{
+    grid-column: 1/-1;
+    margin: 0 auto;
+}
+#contactMe form{
+    margin: 5%
+}
+
+#message{
+    grid-column: 1/-1;
+    grid-row: 3/4;
+    width: 100%;
+    margin: 5%;
+}
+
+#message label{
+    width: 400px;
+}
+#submit{
+    grid-column: 1/-1;
+    grid-row: 4/5;
+}
+
+form{
+    margin: 15px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: var(--secondaryColor  );
+}
+footer img{
+    width: 75px;
+}

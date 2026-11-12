@@ -1,0 +1,10 @@
+img {
+    max-width: 250px;
+    width: 75%;
+}
+
+article{
+    /* width: 400px; */
+    text-align: center;
+    margin: 0  auto;
+}
